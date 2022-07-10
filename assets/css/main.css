@@ -1,0 +1,186 @@
+:root {
+  --primary-color: #ff5c1a;
+  --secondary-color: #31b9dd;
+
+  --bg-color: #fbfbfd;
+
+  --white-color: #fff;
+  --black-color: #000;
+
+  --text-color: #3f4451;
+  --text-color-secondary: #677294;
+  --text-color-tertiary: #b3b3b3;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+
+  --font-family: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-color);
+}
+
+header nav .navbar-container {
+  height: inherit;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr 1fr;
+  padding: 0.25rem 1rem;
+}
+
+nav .categories {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 1rem;
+}
+
+nav .categories svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--text-color);
+}
+
+nav .logo {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: self-start;
+}
+
+nav .logo img {
+  height: 4rem;
+  width: auto;
+}
+
+nav .search {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 1rem;
+}
+
+nav .search .search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav .search .search-input {
+  height: 100%;
+  width: 400px;
+  border: 2px solid var(--text-color-tertiary);
+  border-radius: 0.5rem;
+  background: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: var(--font-size-sm);
+  color: var(--text-color-tertiary);
+  font-weight: normal;
+}
+
+nav .search .search-input:focus {
+  border: 2px solid var(--text-color);
+}
+
+nav .search .search-button {
+  position: relative;
+  left: -3.5rem;
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--white-color);
+}
+
+nav .search .search-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  width: auto;
+  fill: var(--text-color);
+}
+
+nav .actions {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: end;
+}
+
+nav .actions ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+nav .actions .login-button {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+nav .actions .login-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--text-color);
+}
+
+nav .actions .cart-button {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+nav .actions .cart-button svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--text-color);
+}
