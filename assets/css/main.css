@@ -92,6 +92,7 @@ nav .categories .category-dropdown .category-dropdown-child .category-list .cate
   padding: 0.5rem 1rem;
   color: var(--text-color-secondary);
   text-decoration: none;
+  text-transform: capitalize;
 }
 
 nav .categories .category-dropdown .category-dropdown-child .category-list .category-item a:hover {
