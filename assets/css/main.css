@@ -324,6 +324,7 @@ nav .actions .cart-button svg {
   border: none;
   padding: 0.5rem;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .products .product-container .product-info .product-price {
