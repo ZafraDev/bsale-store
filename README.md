@@ -18,7 +18,7 @@ Las tecnologías implementadas para este proyecto son:
 
 El proyecto no requiere de ninguna instalación previa, pero si necesita de la URL del [API](https://github.com/ZafraDev/bsale-store-api) desarrollado, en su página de github puede ver la instalación y ejecución de ese proyecto.
 
-Por defecto la URL del la API será [https://sdvhbzk7tl.execute-api.us-west-2.amazonaws.com](https://github.com/ZafraDev/bsale-store-api).
+Por defecto la URL del la API será [https://sdvhbzk7tl.execute-api.us-west-2.amazonaws.com](https://sdvhbzk7tl.execute-api.us-west-2.amazonaws.com).
 
 ### Installation
 
