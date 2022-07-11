@@ -26,11 +26,11 @@ Por defecto la URL del la API será [https://sdvhbzk7tl.execute-api.us-west-2.am
    ```sh
    git clone https://github.com/ZafraDev/bsale-store.git
    ```
-2. Si desea cambiar la URL del API puede hacerlo en el archivo (`/assets/js/index.js`), el cual se encuentra dentro del proyecto.
+2. Si desea cambiar la URL del API puede hacerlo en el archivo `/assets/js/index.js`, el cual se encuentra dentro del proyecto.
    ```javascript
    const API_URL = "Ingrese aquí la url";
    ```
-3. Puede correr el proyecto simplemente abriendo la ubicación del archivo (`index.html`) en el navegador o dando doble click en él.
+3. Puede correr el proyecto simplemente abriendo la ubicación del archivo `index.html` en el navegador o dando doble click en él.
 
 ## Contacto
 
