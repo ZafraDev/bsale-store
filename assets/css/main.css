@@ -274,6 +274,10 @@ nav .actions .cart-button svg {
   cursor: pointer;
   display: block;
   padding: 1rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .products .product-container .product-image {
@@ -329,7 +333,7 @@ nav .actions .cart-button svg {
   justify-content: center;
 }
 
-.products .product-container .product-info .product-price .discount {
+.products .product-container .product-info .product-price .previous-price {
   font-size: var(--font-size-md);
   color: var(--text-color-tertiary);
   text-decoration: line-through;
